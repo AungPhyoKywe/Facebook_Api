@@ -16,23 +16,12 @@ $fb=new Facebook\Facebook([
 'default_grap_version'=>'v2.7'
 
 
-
-
-
-
 ]);
 
 $helper=$fb->getRedirectLoginHelper();
 $login=$helper->getLoginUrl("http://localhost/fb_login/");
 
 print_r($login);
-
-
-
-
-
-
-
 
 
 ?>
